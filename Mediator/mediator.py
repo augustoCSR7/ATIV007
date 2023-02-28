@@ -35,7 +35,9 @@ class Colleague2:
 
 
 mediator = Mediator()
+
 colleague1 = mediator.colleague1
+
 colleague2 = mediator.colleague2
 
 colleague1.send("Hello, colleague2!")
